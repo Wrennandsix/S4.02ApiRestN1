@@ -48,13 +48,9 @@ public class FruitController {
 
 	@DeleteMapping("/fruita/delete/{id}")
 	public ResponseEntity<String> deleteFruit(@PathVariable int id) {
-		String fruit;
-		fruit = fruitService.getFruitById(id).toString();
-		fruit.substring(8);
 		fruitService.deleteFruit(id);
 
-		return new ResponseEntity<>(fruit+"succefully deleted from our database",HttpStatus.OK);
-
+		return new ResponseEntity<>("fruit with id:"+id+" succefully deleted",HttpStatus.OK);
 	}
 
 	@GetMapping("/fruita/getOne/{id}")
