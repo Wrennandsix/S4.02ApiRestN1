@@ -1,4 +1,4 @@
-package cat.itacademy.barcelonactiva.SanchezMoreno.Marc.s04.t02.n01.modelServices;
+package cat.itacademy.barcelonactiva.SanchezMoreno.Marc.s04.t02.n01.services;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,8 +6,8 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import cat.itacademy.barcelonactiva.SanchezMoreno.Marc.s04.t02.n01.modelDomain.Fruit;
-import cat.itacademy.barcelonactiva.SanchezMoreno.Marc.s04.t02.n01.modelRepository.FruitRepository;
+import cat.itacademy.barcelonactiva.SanchezMoreno.Marc.s04.t02.n01.domain.Fruit;
+import cat.itacademy.barcelonactiva.SanchezMoreno.Marc.s04.t02.n01.repository.FruitRepository;
 import jakarta.persistence.EntityNotFoundException;
 
 @Service

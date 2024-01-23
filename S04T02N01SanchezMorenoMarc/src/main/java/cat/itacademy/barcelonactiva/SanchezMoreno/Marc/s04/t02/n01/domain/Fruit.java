@@ -1,4 +1,4 @@
-package cat.itacademy.barcelonactiva.SanchezMoreno.Marc.s04.t02.n01.modelDomain;
+package cat.itacademy.barcelonactiva.SanchezMoreno.Marc.s04.t02.n01.domain;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

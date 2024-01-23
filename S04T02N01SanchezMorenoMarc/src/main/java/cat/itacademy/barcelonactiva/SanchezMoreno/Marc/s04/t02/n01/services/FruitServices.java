@@ -1,9 +1,9 @@
-package cat.itacademy.barcelonactiva.SanchezMoreno.Marc.s04.t02.n01.modelServices;
+package cat.itacademy.barcelonactiva.SanchezMoreno.Marc.s04.t02.n01.services;
 
 import java.util.List;
 import java.util.Optional;
 
-import cat.itacademy.barcelonactiva.SanchezMoreno.Marc.s04.t02.n01.modelDomain.Fruit;
+import cat.itacademy.barcelonactiva.SanchezMoreno.Marc.s04.t02.n01.domain.Fruit;
 
 public interface FruitServices {
 	

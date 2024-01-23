@@ -13,8 +13,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import cat.itacademy.barcelonactiva.SanchezMoreno.Marc.s04.t02.n01.modelDomain.Fruit;
-import cat.itacademy.barcelonactiva.SanchezMoreno.Marc.s04.t02.n01.modelServices.FruitServices;
+
+import cat.itacademy.barcelonactiva.SanchezMoreno.Marc.s04.t02.n01.domain.Fruit;
+import cat.itacademy.barcelonactiva.SanchezMoreno.Marc.s04.t02.n01.services.FruitServices;
 
 @RestController
 public class FruitController {
